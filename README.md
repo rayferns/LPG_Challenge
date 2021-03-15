@@ -19,9 +19,11 @@ JavaScript programming language was used, with Cypress tool to automate the webs
 
 ## To run the test
 
-Clone the project to local folder and follow the stesp 
+Clone the project to local folder and follow the steps
 
-Install the node dependencies
+Pre-requisites
+- Install the node dependencies
+- Set the system environment variable - APPLITOOLS_API_KEY with Your API key for running tests
 
 ```sh
 cd [project folder]
