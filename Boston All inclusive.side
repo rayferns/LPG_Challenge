@@ -1,0 +1,286 @@
+{
+  "id": "776b1154-b234-4ff2-8248-5e9d32092361",
+  "version": "2.0",
+  "name": "Boston All inclusive",
+  "url": "https://gocity.com",
+  "tests": [{
+    "id": "58d02570-1903-4966-9587-120a165d17f5",
+    "name": "All Inclusive - Other areas",
+    "commands": [{
+      "id": "585ec58d-0b59-47f5-a47f-198980bc9aaa",
+      "comment": "",
+      "command": "open",
+      "target": "/boston/en-us/products/all-inclusive",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f294e2e-eb94-42ab-9601-1fd26a8a94de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1176",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7582b97-e3f2-4ece-bab9-7f7720699cd7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Attractions",
+      "targets": [
+        ["linkText=Attractions", "linkText"],
+        ["css=.active > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Attractions')]", "xpath:link"],
+        ["xpath=//nav[@id='block-go-theme-main-menu']/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/boston/en-us/products/all-inclusive/attractions')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Attractions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9f6bf06-b9bd-40f5-8588-f7eb1fdcaf7a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Attractions",
+      "targets": [
+        ["linkText=Attractions", "linkText"],
+        ["css=.active > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Attractions')]", "xpath:link"],
+        ["xpath=//nav[@id='block-go-theme-main-menu']/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/boston/en-us/products/all-inclusive/attractions')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Attractions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "128ac98b-5785-487a-82f9-301b900f21de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.region-content",
+      "targets": [
+        ["css=.region-content", "css:finder"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30fb35d8-7769-411a-b80f-2f0d011f7c1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.views-row:nth-child(1) p",
+      "targets": [
+        ["css=.views-row:nth-child(1) p", "css:finder"],
+        ["xpath=//a/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Unlimited admission. Great savings and easy budgeting. ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c38446c1-19e0-4171-8056-98601fa9e23b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.views-row:nth-child(2) p",
+      "targets": [
+        ["css=.views-row:nth-child(2) p", "css:finder"],
+        ["xpath=//div[2]/div/a/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fa36206-c1ef-48e2-8c99-1ca49a67a313",
+      "comment": "",
+      "command": "click",
+      "target": "css=.views-row:nth-child(3) p",
+      "targets": [
+        ["css=.views-row:nth-child(3) p", "css:finder"],
+        ["xpath=//div[3]/div/a/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'All on one digital pass. Enjoy contactless entry.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61b47f30-a5fb-44da-a8a1-9e0ace5b6432",
+      "comment": "",
+      "command": "click",
+      "target": "css=.views-row:nth-child(4) p",
+      "targets": [
+        ["css=.views-row:nth-child(4) p", "css:finder"],
+        ["xpath=//div[4]/div/a/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Plan in advance or visit on the fly. Use our expert App to breeze between attractions.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "113a9560-3259-4f18-abe4-992a2a6b6363",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,298)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "904f50e1-9008-4067-a8cb-9ec0271e0cc6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,595)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4d51e66-0d07-4104-8692-22e0c9114013",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af212139-166f-4a83-99b1-e169428bb0c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Ellipse_47 > circle:nth-child(2)",
+      "targets": [
+        ["css=#Ellipse_47 > circle:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f651d9-14a4-4137-b87f-8f147f897b83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lpg-attractions-filter__filter-content-tags-checkbox:nth-child(3) > label",
+      "targets": [
+        ["css=.lpg-attractions-filter__filter-content-tags-checkbox:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Outdoor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "351f1f00-db0f-4fe8-836f-58e4cc4ae9ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lpg-attractions-product-filter__container--left",
+      "targets": [
+        ["css=.lpg-attractions-product-filter__container--left", "css:finder"],
+        ["xpath=//section[4]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43415b0d-ede5-4010-8ab3-749dcbbc2684",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.lpg-attractions-card__item:nth-child(1) .lpg-attractions-card__details:nth-child(2) .lpg-attractions-card__title > span > span > span",
+      "targets": [
+        ["css=.lpg-attractions-card__item:nth-child(1) .lpg-attractions-card__details:nth-child(2) .lpg-attractions-card__title > span > span > span", "css:finder"],
+        ["xpath=//div[2]/a/div/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d3280fe-7165-490c-914e-640ef5efa7ba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3fb7877-d857-4402-bfcc-e924330da8db",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2099)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b135c4b5-51cf-422f-b5b6-45a91028a1a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lpg-attractions-card__item:nth-child(1) .lpg-attractions-card__details:nth-child(2) .sc-bdnylx",
+      "targets": [
+        ["css=.lpg-attractions-card__item:nth-child(1) .lpg-attractions-card__details:nth-child(2) .sc-bdnylx", "css:finder"],
+        ["xpath=//div[2]/div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8333e61f-473f-400a-b58f-6765d8fc30bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md-close > svg",
+      "targets": [
+        ["css=.md-close > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "43703530-59a3-4a16-a8e8-6151a796b45c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What's included",
+      "targets": [
+        ["linkText=What's included", "linkText"],
+        ["css=.secondary-menu--item:nth-child(1) > a", "css:finder"],
+        ["xpath=//section[@id='block-secondarylinks']/div/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/boston/en-us/products/all-inclusive/what-you-get')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99297695-cd52-45d1-935c-ae9cca1f059d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How it works",
+      "targets": [
+        ["linkText=How it works", "linkText"],
+        ["css=.secondary-menu--item:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'How it works')])[3]", "xpath:link"],
+        ["xpath=//section[@id='block-secondarylinks']/div/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/boston/en-us/products/all-inclusive/how-it-works')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ace10e4-cb59-48fd-a5e6-1f319657be3f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Attractions",
+      "targets": [
+        ["linkText=Attractions", "linkText"],
+        ["css=.secondary-menu--item:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Attractions')])[3]", "xpath:link"],
+        ["xpath=//section[@id='block-secondarylinks']/div/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/boston/en-us/products/all-inclusive/attractions')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bdf7851-443a-49b2-998c-24d8d41913e0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.content__title",
+      "targets": [
+        ["css=.content__title", "css:finder"],
+        ["xpath=//section[@id='block-node-banner']/div/div/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'All-in admission to 40+ Boston attractions')]", "xpath:innerText"]
+      ],
+      "value": "All-in admission to 40+ Boston attractions"
+    }, {
+      "id": "10aee9e6-6934-4996-8e7d-c038ca59330d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo > img",
+      "targets": [
+        ["css=.logo > img", "css:finder"],
+        ["xpath=//img[@alt='Home']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd22cdf5-eae9-4bfb-b6d7-19a75522de18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.views-row:nth-child(1) .pass-product-tile-dest__content-btn > .field",
+      "targets": [
+        ["css=.views-row:nth-child(1) .pass-product-tile-dest__content-btn > .field", "css:finder"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "74d5e68e-d69e-4980-a313-c4972c8eb995",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["58d02570-1903-4966-9587-120a165d17f5"]
+  }],
+  "urls": ["https://gocity.com/"],
+  "plugins": []
+}

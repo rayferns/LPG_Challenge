@@ -1,0 +1,20 @@
+{
+  "name": "lpg-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "cypress run",
+    "cy:E2Etest": "cypress run --headless --spec cypress/integration/tests/End2EndTest.spec.js --browser electron",
+    "cy:bostonAllInclusive": "cypress run --headless --spec cypress/integration/tests/BostonAllInclusiveTest.spec.js --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.20.2",
+    "cypress": "^6.6.0",
+    "cypress-axe": "^0.12.2"
+  }
+}
